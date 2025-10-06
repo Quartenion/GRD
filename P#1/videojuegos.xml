@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuegos SYSTEM "videojuegos.dtd">
+
+<videojuegos>
+  <videojuego>
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <subtitulo>Game of the Year Edition</subtitulo>
+    <generos>
+      <genero>Aventura</genero>
+      <genero>Acción</genero>
+    </generos>
+    <plataformas>
+      <plataforma>Nintendo Switch</plataforma>
+      <plataforma>Wii U</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2017-03-03</fecha_lanzamiento>
+    <desarrollador>Nintendo EPD</desarrollador>
+    <distribuidor>Nintendo</distribuidor>
+    <version>1.6.0</version>
+    <descripcion>Un vasto mundo abierto en Hyrule con libertad total de exploración.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>PEGI 12</clasificacion>
+    <idiomas>
+      <idioma>Español</idioma>
+      <idioma>Inglés</idioma>
+      <idioma>Japonés</idioma>
+    </idiomas>
+    <disponibilidad>Activo</disponibilidad>
+  </videojuego>
+
+  <videojuego>
+    <titulo>God of War</titulo>
+    <generos>
+      <genero>Acción</genero>
+      <genero>Aventura</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PlayStation 4</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2018-04-20</fecha_lanzamiento>
+    <desarrollador>SIE Santa Monica Studio</desarrollador>
+    <distribuidor>Sony Interactive Entertainment</distribuidor>
+    <descripcion>Kratos y su hijo Atreus emprenden un viaje en la mitología nórdica.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>PEGI 18</clasificacion>
+    <idiomas>
+      <idioma>Español</idioma>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <disponibilidad>Activo</disponibilidad>
+  </videojuego>
+
+  <videojuego>
+    <titulo>Minecraft</titulo>
+    <generos>
+      <genero>Sandbox</genero>
+      <genero>Supervivencia</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>PlayStation</plataforma>
+      <plataforma>Xbox</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2011-11-18</fecha_lanzamiento>
+    <desarrollador>Mojang Studios</desarrollador>
+    <distribuidor>Mojang / Microsoft</distribuidor>
+    <descripcion>Un juego de bloques infinito donde los jugadores pueden construir y sobrevivir.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+      <modo>Multijugador</modo>
+      <modo>Online</modo>
+    </modos>
+    <clasificacion>PEGI 7</clasificacion>
+    <idiomas>
+      <idioma>Español</idioma>
+      <idioma>Inglés</idioma>
+      <idioma>Chino</idioma>
+    </idiomas>
+    <disponibilidad>Activo</disponibilidad>
+  </videojuego>
+
+  <videojuego>
+    <titulo>Halo Infinite</titulo>
+    <generos>
+      <genero>Shooter</genero>
+    </generos>
+    <plataformas>
+      <plataforma>Xbox Series X</plataforma>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2021-12-08</fecha_lanzamiento>
+    <desarrollador>343 Industries</desarrollador>
+    <distribuidor>Xbox Game Studios</distribuidor>
+    <descripcion>El Jefe Maestro regresa en la mayor campaña de Halo con multijugador gratuito.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+      <modo>Multijugador</modo>
+      <modo>Online</modo>
+    </modos>
+    <clasificacion>PEGI 16</clasificacion>
+    <idiomas>
+      <idioma>Español</idioma>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <disponibilidad>Activo</disponibilidad>
+  </videojuego>
+
+  <!-- Repite el mismo patrón para los demás videojuegos -->
+</videojuegos>

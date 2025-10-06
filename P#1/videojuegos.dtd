@@ -1,0 +1,46 @@
+<!DOCTYPE videojuego [
+  <!-- Elemento raíz -->
+  <!ELEMENT videojuego (titulo, subtitulo?, generos, plataformas, fecha_lanzamiento, desarrollador, distribuidor, version?, descripcion, modos, clasificacion, idiomas, duracion?, extras?)>
+  
+  <!-- Información básica -->
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT subtitulo (#PCDATA)>
+  <!ELEMENT generos (genero+)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT plataformas (plataforma+)>
+  <!ELEMENT plataforma (#PCDATA)>
+  <!ELEMENT fecha_lanzamiento (#PCDATA)>
+  <!ELEMENT desarrollador (#PCDATA)>
+  <!ELEMENT distribuidor (#PCDATA)>
+  <!ELEMENT version (#PCDATA)>
+
+  <!-- Contenido -->
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT modos (modo+)>
+  <!ELEMENT modo (#PCDATA)>
+  <!ELEMENT clasificacion (#PCDATA)>
+  <!ELEMENT idiomas (idioma+)>
+  <!ELEMENT idioma (#PCDATA)>
+  <!ELEMENT duracion (#PCDATA)>
+
+  <!-- Extras opcionales -->
+  <!ELEMENT extras (logros?, expansiones?, motor?, requisitos?, resolucion?, compatibilidad_vr?, perifericos?, enlace?, disponibilidad?, accesibilidad?, puntuacion?, capturas?, trailers?)>
+  <!ELEMENT logros (logro*)>
+  <!ELEMENT logro (#PCDATA)>
+  <!ELEMENT expansiones (expansion*)>
+  <!ELEMENT expansion (#PCDATA)>
+  <!ELEMENT motor (#PCDATA)>
+  <!ELEMENT requisitos (#PCDATA)>
+  <!ELEMENT resolucion (#PCDATA)>
+  <!ELEMENT compatibilidad_vr (#PCDATA)>
+  <!ELEMENT perifericos (periferico*)>
+  <!ELEMENT periferico (#PCDATA)>
+  <!ELEMENT enlace (#PCDATA)>
+  <!ELEMENT disponibilidad (#PCDATA)>
+  <!ELEMENT accesibilidad (#PCDATA)>
+  <!ELEMENT puntuacion (#PCDATA)>
+  <!ELEMENT capturas (captura*)>
+  <!ELEMENT captura (#PCDATA)>
+  <!ELEMENT trailers (trailer*)>
+  <!ELEMENT trailer (#PCDATA)>
+]>
