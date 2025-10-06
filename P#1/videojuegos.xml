@@ -1,6 +1,6 @@
 <!-- Natalia García Ortega y Fernando Lanzarot Facio-->
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE videojuego SYSTEM "videojuego.dtd">
+<!DOCTYPE videojuegos SYSTEM "videojuego.dtd">
 
 <videojuegos>
   <!-- Doki Doki Literature Club -->
@@ -162,6 +162,179 @@
     </idiomas>
     <extras>
       <puntuacion>Mixtas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Stardew Valley -->
+  <videojuego>
+    <titulo>Stardew Valley</titulo>
+    <generos>
+      <genero>Simulación</genero>
+      <genero>RPG</genero>
+      <genero>Aventura</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>PS4</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
+      <plataforma>Xbox One</plataforma>
+      <plataforma>Android</plataforma>
+      <plataforma>iOS</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2016-02-26</fecha_lanzamiento>
+    <desarrollador>ConcernedApe</desarrollador>
+    <distribuidor>ConcernedApe</distribuidor>
+    <descripcion>Un encantador juego de simulación agrícola en el que cultivas, pescas, exploras minas y construyes relaciones con los aldeanos.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+      <modo>Multijugador cooperativo</modo>
+    </modos>
+    <clasificacion>PEGI 7</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
+    </idiomas>
+    <duracion>50-200 horas</duracion>
+    <extras>
+      <motor>Microsoft XNA</motor>
+      <puntuacion>Extremadamente Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+    <!-- Hollow Knight: Silksong -->
+  <videojuego>
+    <titulo>Hollow Knight: Silksong</titulo>
+    <generos>
+      <genero>Metroidvania</genero>
+      <genero>Acción</genero>
+      <genero>Aventura</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
+      <plataforma>Xbox Series X/S</plataforma>
+      <plataforma>PS5</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2025-09-04</fecha_lanzamiento>
+    <desarrollador>Team Cherry</desarrollador>
+    <distribuidor>Team Cherry</distribuidor>
+    <descripcion>Secuela de Hollow Knight protagonizada por Hornet, que ofrece un vasto nuevo reino, combates más ágiles y una banda sonora original de Christopher Larkin.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>PEGI 12</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
+      <idioma>Japonés</idioma>
+    </idiomas>
+    <duracion>20-50 horas</duracion>
+    <extras>
+      <motor>Unity</motor>
+      <puntuacion>Muy Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Hades -->
+  <videojuego>
+    <titulo>Hades</titulo>
+    <generos>
+      <genero>Roguelike</genero>
+      <genero>Acción</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma>PS4</plataforma>
+      <plataforma>PS5</plataforma>
+      <plataforma>Xbox Series X/S</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2020-09-17</fecha_lanzamiento>
+    <desarrollador>Supergiant Games</desarrollador>
+    <distribuidor>Supergiant Games</distribuidor>
+    <descripcion>Un dinámico roguelike ambientado en el inframundo griego, con combates frenéticos y narrativa ramificada.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>PEGI 12</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+    </idiomas>
+    <duracion>20-60 horas</duracion>
+    <extras>
+      <motor>MonoGame</motor>
+      <puntuacion>Extremadamente Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Celeste -->
+  <videojuego>
+    <titulo>Celeste</titulo>
+    <generos>
+      <genero>Plataformas</genero>
+      <genero>Indie</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma>PS4</plataforma>
+      <plataforma>Xbox One</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2018-01-25</fecha_lanzamiento>
+    <desarrollador>Maddy Makes Games</desarrollador>
+    <distribuidor>Maddy Makes Games</distribuidor>
+    <descripcion>Un desafiante juego de plataformas sobre escalar una montaña mientras enfrentas tus propios miedos.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>PEGI 7</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
+    </idiomas>
+    <duracion>8-20 horas</duracion>
+    <extras>
+      <motor>Microsoft XNA</motor>
+      <puntuacion>Extremadamente Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Valorant -->
+  <videojuego>
+    <titulo>Valorant</titulo>
+    <generos>
+      <genero>Shooter táctico</genero>
+      <genero>Competitivo</genero>
+      <genero>Multijugador</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2020-06-02</fecha_lanzamiento>
+    <desarrollador>Riot Games</desarrollador>
+    <distribuidor>Riot Games</distribuidor>
+    <descripcion>Un shooter táctico multijugador 5v5 que combina precisión, trabajo en equipo y habilidades únicas de cada agente.</descripcion>
+    <modos>
+      <modo>Multijugador competitivo</modo>
+    </modos>
+    <clasificacion>PEGI 16</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
+    </idiomas>
+    <extras>
+      <motor>Unreal Engine 5</motor>
+      <puntuacion>Muy Positivas (Valoraciones de jugadores)</puntuacion>
     </extras>
   </videojuego>
 </videojuegos>

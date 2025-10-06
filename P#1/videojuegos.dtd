@@ -1,5 +1,7 @@
-<!DOCTYPE videojuego [
+<!DOCTYPE videojuegos [
   <!-- Elemento raíz -->
+  <!ELEMENT videojuegos (videojuego+)>
+
   <!ELEMENT videojuego (titulo, subtitulo?, generos, plataformas, fecha_lanzamiento, desarrollador, distribuidor, version?, descripcion, modos, clasificacion, idiomas, duracion?, extras?)>
   
   <!-- Información básica -->
