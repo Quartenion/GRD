@@ -1,114 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE videojuegos SYSTEM "videojuegos.dtd">
+<!DOCTYPE videojuego SYSTEM "videojuego.dtd">
 
 <videojuegos>
+  <!-- Doki Doki Literature Club -->
   <videojuego>
-    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
-    <subtitulo>Game of the Year Edition</subtitulo>
+    <titulo>Doki Doki Literature Club!</titulo>
+    <subtitulo>DDLC</subtitulo>
     <generos>
-      <genero>Aventura</genero>
-      <genero>Acción</genero>
-    </generos>
-    <plataformas>
-      <plataforma>Nintendo Switch</plataforma>
-      <plataforma>Wii U</plataforma>
-    </plataformas>
-    <fecha_lanzamiento>2017-03-03</fecha_lanzamiento>
-    <desarrollador>Nintendo EPD</desarrollador>
-    <distribuidor>Nintendo</distribuidor>
-    <version>1.6.0</version>
-    <descripcion>Un vasto mundo abierto en Hyrule con libertad total de exploración.</descripcion>
-    <modos>
-      <modo>Un jugador</modo>
-    </modos>
-    <clasificacion>PEGI 12</clasificacion>
-    <idiomas>
-      <idioma>Español</idioma>
-      <idioma>Inglés</idioma>
-      <idioma>Japonés</idioma>
-    </idiomas>
-    <disponibilidad>Activo</disponibilidad>
-  </videojuego>
-
-  <videojuego>
-    <titulo>God of War</titulo>
-    <generos>
-      <genero>Acción</genero>
-      <genero>Aventura</genero>
-    </generos>
-    <plataformas>
-      <plataforma>PlayStation 4</plataforma>
-    </plataformas>
-    <fecha_lanzamiento>2018-04-20</fecha_lanzamiento>
-    <desarrollador>SIE Santa Monica Studio</desarrollador>
-    <distribuidor>Sony Interactive Entertainment</distribuidor>
-    <descripcion>Kratos y su hijo Atreus emprenden un viaje en la mitología nórdica.</descripcion>
-    <modos>
-      <modo>Un jugador</modo>
-    </modos>
-    <clasificacion>PEGI 18</clasificacion>
-    <idiomas>
-      <idioma>Español</idioma>
-      <idioma>Inglés</idioma>
-    </idiomas>
-    <disponibilidad>Activo</disponibilidad>
-  </videojuego>
-
-  <videojuego>
-    <titulo>Minecraft</titulo>
-    <generos>
-      <genero>Sandbox</genero>
-      <genero>Supervivencia</genero>
+      <genero>Visual Novel</genero>
+      <genero>Terror Psicológico</genero>
     </generos>
     <plataformas>
       <plataforma>PC</plataforma>
-      <plataforma>PlayStation</plataforma>
-      <plataforma>Xbox</plataforma>
-      <plataforma>Nintendo Switch</plataforma>
+      <plataforma>Mac</plataforma>
+      <plataforma>Linux</plataforma>
     </plataformas>
-    <fecha_lanzamiento>2011-11-18</fecha_lanzamiento>
-    <desarrollador>Mojang Studios</desarrollador>
-    <distribuidor>Mojang / Microsoft</distribuidor>
-    <descripcion>Un juego de bloques infinito donde los jugadores pueden construir y sobrevivir.</descripcion>
+    <fecha_lanzamiento>2017-09-22</fecha_lanzamiento>
+    <desarrollador>Team Salvato</desarrollador>
+    <distribuidor>Team Salvato</distribuidor>
+    <version>1.1.1</version>
+    <descripcion>Una novela visual con apariencia de simulador de citas que esconde un trasfondo perturbador y de terror psicológico.</descripcion>
     <modos>
       <modo>Un jugador</modo>
-      <modo>Multijugador</modo>
-      <modo>Online</modo>
+    </modos>
+    <clasificacion>Mature 17+</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+      <idioma>Español (fan-traducción)</idioma>
+    </idiomas>
+    <extras>
+      <logros/>
+      <expansiones/>
+      <motor>Ren'Py</motor>
+      <disponibilidad>Gratuito en Steam e itch.io</disponibilidad>
+      <puntuacion>Muy Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Hollow Knight -->
+  <videojuego>
+    <titulo>Hollow Knight</titulo>
+    <generos>
+      <genero>Metroidvania</genero>
+      <genero>Acción</genero>
+      <genero>Aventura</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
+      <plataforma>PS4</plataforma>
+      <plataforma>Xbox One</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2017-02-24</fecha_lanzamiento>
+    <desarrollador>Team Cherry</desarrollador>
+    <distribuidor>Team Cherry</distribuidor>
+    <descripcion>Un desafiante metroidvania en un vasto mundo subterráneo lleno de misterios, combates intensos y exploración.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
     </modos>
     <clasificacion>PEGI 7</clasificacion>
     <idiomas>
-      <idioma>Español</idioma>
       <idioma>Inglés</idioma>
-      <idioma>Chino</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
     </idiomas>
-    <disponibilidad>Activo</disponibilidad>
+    <duracion>30-60 horas</duracion>
+    <extras>
+      <expansiones>
+        <expansion>Hidden Dreams</expansion>
+        <expansion>The Grimm Troupe</expansion>
+        <expansion>Lifeblood</expansion>
+        <expansion>Godmaster</expansion>
+      </expansiones>
+      <motor>Unity</motor>
+      <puntuacion>Overwhelmingly Positive (Steam)</puntuacion>
+    </extras>
   </videojuego>
 
+  <!-- Inscryption -->
   <videojuego>
-    <titulo>Halo Infinite</titulo>
+    <titulo>Inscryption</titulo>
     <generos>
-      <genero>Shooter</genero>
+      <genero>Cartas</genero>
+      <genero>Puzzle</genero>
+      <genero>Terror Psicológico</genero>
     </generos>
     <plataformas>
-      <plataforma>Xbox Series X</plataforma>
       <plataforma>PC</plataforma>
+      <plataforma>PS4</plataforma>
+      <plataforma>PS5</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
     </plataformas>
-    <fecha_lanzamiento>2021-12-08</fecha_lanzamiento>
-    <desarrollador>343 Industries</desarrollador>
-    <distribuidor>Xbox Game Studios</distribuidor>
-    <descripcion>El Jefe Maestro regresa en la mayor campaña de Halo con multijugador gratuito.</descripcion>
+    <fecha_lanzamiento>2021-10-19</fecha_lanzamiento>
+    <desarrollador>Daniel Mullins Games</desarrollador>
+    <distribuidor>Devolver Digital</distribuidor>
+    <descripcion>Un juego de cartas roguelike con acertijos, narrativa oscura y elementos de terror psicológico.</descripcion>
     <modos>
       <modo>Un jugador</modo>
-      <modo>Multijugador</modo>
-      <modo>Online</modo>
     </modos>
     <clasificacion>PEGI 16</clasificacion>
     <idiomas>
-      <idioma>Español</idioma>
       <idioma>Inglés</idioma>
+      <idioma>Español</idioma>
+      <idioma>Francés</idioma>
+      <idioma>Alemán</idioma>
     </idiomas>
-    <disponibilidad>Activo</disponibilidad>
+    <extras>
+      <motor>Unity</motor>
+      <puntuacion>Muy Positivas (Steam)</puntuacion>
+    </extras>
   </videojuego>
 
-  <!-- Repite el mismo patrón para los demás videojuegos -->
+  <!-- Mouthwashing -->
+  <videojuego>
+    <titulo>Mouthwashing</titulo>
+    <generos>
+      <genero>Terror Psicológico</genero>
+      <genero>Indie</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2023</fecha_lanzamiento>
+    <desarrollador>Mossin</desarrollador>
+    <distribuidor>Mossin</distribuidor>
+    <descripcion>Un juego indie de terror psicológico con atmósfera inquietante y narrativa experimental.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>No clasificado</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <extras>
+      <puntuacion>Positivas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
+
+  <!-- Welcome to the Game -->
+  <videojuego>
+    <titulo>Welcome to the Game</titulo>
+    <generos>
+      <genero>Terror</genero>
+      <genero>Puzzle</genero>
+      <genero>Horror de Exploración</genero>
+    </generos>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <fecha_lanzamiento>2016-06-15</fecha_lanzamiento>
+    <desarrollador>Reflect Studios</desarrollador>
+    <distribuidor>Reflect Studios</distribuidor>
+    <descripcion>Un juego de terror y acertijos centrado en explorar la deep web desde un entorno simulado con tensión constante.</descripcion>
+    <modos>
+      <modo>Un jugador</modo>
+    </modos>
+    <clasificacion>Mature 17+</clasificacion>
+    <idiomas>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <extras>
+      <puntuacion>Mixtas (Steam)</puntuacion>
+    </extras>
+  </videojuego>
 </videojuegos>

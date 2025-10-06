@@ -23,7 +23,7 @@
   <!ELEMENT idioma (#PCDATA)>
   <!ELEMENT duracion (#PCDATA)>
 
-  <!-- Extras opcionales -->
+  <!-- Extras -->
   <!ELEMENT extras (logros?, expansiones?, motor?, requisitos?, resolucion?, compatibilidad_vr?, perifericos?, enlace?, disponibilidad?, accesibilidad?, puntuacion?, capturas?, trailers?)>
   <!ELEMENT logros (logro*)>
   <!ELEMENT logro (#PCDATA)>
