@@ -1,3 +1,4 @@
+<!-- Natalia García Ortega y Fernando Lanzarot Facio-->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE videojuego SYSTEM "videojuego.dtd">
 
@@ -26,7 +27,6 @@
     <clasificacion>Mature 17+</clasificacion>
     <idiomas>
       <idioma>Inglés</idioma>
-      <idioma>Español (fan-traducción)</idioma>
     </idiomas>
     <extras>
       <logros/>
@@ -74,7 +74,7 @@
         <expansion>Godmaster</expansion>
       </expansiones>
       <motor>Unity</motor>
-      <puntuacion>Overwhelmingly Positive (Steam)</puntuacion>
+      <puntuacion>Muy Positivas (Steam)</puntuacion>
     </extras>
   </videojuego>
 
