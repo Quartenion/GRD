@@ -1,6 +1,6 @@
 <!-- Natalia García Ortega y Fernando Lanzarot Facio-->
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE videojuegos SYSTEM "videojuego.dtd">
+<!DOCTYPE videojuegos SYSTEM "videojuegos.dtd">
 
 <videojuegos>
   <!-- Doki Doki Literature Club -->
