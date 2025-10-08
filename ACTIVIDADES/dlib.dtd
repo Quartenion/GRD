@@ -1,0 +1,61 @@
+<!ELEMENT article (meta, abstract?, keywords?, body, references?)>
+
+<!-- Metadata -->
+<!ELEMENT meta (title, date?, volume?, number?, authors, journal?, version?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT journal (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+
+<!-- Authors -->
+<!ELEMENT authors (author+)>
+<!ELEMENT author (name, affiliation*, email?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT affiliation (institute?, university?, country?)>
+<!ELEMENT institute (#PCDATA)>
+<!ELEMENT university (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!-- Abstract -->
+<!ELEMENT abstract (#PCDATA)>
+
+<!-- Keywords -->
+<!ELEMENT keywords (keyword+)>
+<!ELEMENT keyword (#PCDATA)>
+
+<!-- Body -->
+<!ELEMENT body (section+)>
+<!ELEMENT section (sect_title?, (paragraph | figure | table | list | subsection)*)>
+<!ELEMENT sect_title (#PCDATA)>
+<!ELEMENT subsection (sect_title?, (paragraph | figure | table | list | subsection)*)>
+
+<!-- Paragraph -->
+<!ELEMENT paragraph (#PCDATA | ref | link)*>
+<!ELEMENT ref (#PCDATA)> 
+<!ELEMENT link (#PCDATA)>
+
+<!-- Figure -->
+<!ELEMENT figure (caption?, graphic?)>
+<!ELEMENT caption (#PCDATA)>
+<!ELEMENT graphic (#PCDATA)>
+
+<!-- Table -->
+<!ELEMENT table (caption?, tgroup?)>
+<!ELEMENT tgroup (#PCDATA)>
+
+<!-- Lists -->
+<!ELEMENT list (item+)>
+<!ELEMENT item (#PCDATA)>
+
+<!-- References -->
+<!ELEMENT references (reference+)>
+<!ELEMENT reference (rtitle, rauthors?, rsource?, ryear?, rurl?)>
+<!ELEMENT rtitle (#PCDATA)>
+<!ELEMENT rauthors (rauthor+)>
+<!ELEMENT rauthor (#PCDATA)>
+<!ELEMENT rsource (#PCDATA)>
+<!ELEMENT ryear (#PCDATA)>
+<!ELEMENT rurl (#PCDATA)>
