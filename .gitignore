@@ -1,0 +1,25 @@
+# Archivos de usuario / temporales
+P#2/omeka-3.2/files/
+P#2/omeka-3.2/tmp/
+
+# Configuración local
+P#2/omeka-3.2/db.ini
+P#2/omeka-3.2/config/db.ini
+
+# Instalador
+P#2/omeka-3.2/install/
+
+# Logs y caché
+*.log
+*.cache
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+.idea/
+.vscode/
